@@ -143,3 +143,9 @@ body {
 .hidden {
     display: none;
 }
+.section-image{
+display: block;
+margin: 0 auto 10px auto;
+max-width: 10%;
+height: auto;
+}
