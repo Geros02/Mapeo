@@ -29,8 +29,8 @@ body {
     padding: 10px;
     background-color: white;
     align-items: center;
-    overflow-x: auto; /* Permite el desplazamiento horizontal */
-    white-space: nowrap; /* Evita que los elementos se envuelvan en la línea siguiente */
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 
@@ -123,6 +123,14 @@ body {
 .button:hover {
     background-color: #ccc;
 }
+
+.section-image {
+    display: block;
+    margin: 0 auto 10px auto; 
+    max-width: 100%; 
+    height: auto;
+}
+
 .estado-ocupado {
     background-color: grey;
     color: white;
