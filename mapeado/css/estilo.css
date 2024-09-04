@@ -1,0 +1,300 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#search {
+    padding: 10px;
+    font-size: 1rem;
+    width: 200px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+/* Aumenta el tamaño de las imágenes */
+.section-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Mejora la legibilidad de los títulos */
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Establece un tamaño uniforme para los botones */
+.button {
+    height: 60px;
+    width: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border: 2px solid gray;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Añade scroll horizontal a los contenedores */
+.container-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.container-scroll .d-flex {
+    flex-wrap: nowrap;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(59, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+    margin-top: 20px; /* Espacio extra sobre el container */
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 1200px;
+    min-width: 320px;
+}
+
+
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    max-width: 1200px;
+    min-width: 320px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+    margin: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+    max-width: 1200px;
+    min-width: 320px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(64, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 1200px;
+    min-width: 320px;
+}
+
+.container5 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+    margin: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    width: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.container6 {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    max-width: 1200px;
+    min-width: 320px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.container3_2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    max-width: 1200px;
+    min-width: 320px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.container3_2b {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    max-width: 1200px;
+    min-width: 320px;
+    min-height: 400px;
+}
+
+.container3_2c {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+    margin-top: 320px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    max-width: 800px;
+    min-width: 582px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.container11{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+    margin: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    max-width: 1200px;
+    min-width: 800px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.container12 {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    gap: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    max-width: 1200px;
+    min-width: 320px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    background-color: lightgray;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 60px; /* Nuevo tamaño de altura */
+    width: 70px;  /* Nuevo tamaño de anchura */
+}
+
+
+.button:hover {
+    background-color: #ccc;
+}
+
+.section-image {
+    display: block;
+    margin: 0 auto 10px auto; 
+    max-width: 100%; 
+    height: auto;
+}
+
+.estado-ocupado {
+    background-color: grey;
+    color: white;
+    border-color: grey;
+}
+
+.estado-libre {
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+
+.estado-pendiente {
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+}
+.hidden {
+    display: none;
+}
+.section-image{
+height: auto;
+width: 200px;
+height: auto;
+transition: transform 0.3s ease; /* Suaviza la transición */
+cursor: pointer;
+}
+
+.agrandada {
+     transform: scale(6.5); /* Agranda la imagen */
+}
+
+.h3{
+    text-align: center;
+}
+
+.separador{
+    width: 50px;
+}
