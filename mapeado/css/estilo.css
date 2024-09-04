@@ -19,12 +19,50 @@ body {
     border-radius: 5px;
 }
 
+/* Aumenta el tamaño de las imágenes */
+.section-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Mejora la legibilidad de los títulos */
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Establece un tamaño uniforme para los botones */
+.button {
+    height: 60px;
+    width: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border: 2px solid gray;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Añade scroll horizontal a los contenedores */
+.container-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.container-scroll .d-flex {
+    flex-wrap: nowrap;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(59, 1fr);
     grid-template-rows: repeat(5, 60px);
     gap: 10px;
-    margin: 10px;
+    margin-top: 20px; /* Espacio extra sobre el container */
     border: 2px solid black;
     padding: 10px;
     background-color: white;
@@ -40,7 +78,7 @@ body {
     grid-template-columns: repeat(13, 1fr);
     grid-template-rows: repeat(5, 60px);
     gap: 10px;
-    margin: 10px;
+    margin: 20px;
     border: 2px solid black;
     padding: 10px;
     background-color: white;
@@ -52,7 +90,7 @@ body {
     grid-template-columns: repeat(13, 1fr);
     grid-template-rows: repeat(5, 60px);
     gap: 10px;
-    margin: 10px;
+    margin: 20px;
     border: 2px solid black;
     padding: 10px;
     background-color: white;
@@ -64,7 +102,7 @@ body {
     grid-template-columns: repeat(64, 1fr);
     grid-template-rows: repeat(5, 60px);
     gap: 10px;
-    margin: 10px;
+    margin: 20px;
     border: 2px solid black;
     padding: 10px;
     background-color: white;
@@ -76,7 +114,7 @@ body {
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(5, 60px);
     gap: 10px;
-    margin: 10px;
+    margin: 20px;
     border: 2px solid black;
     padding: 10px;
     background-color: white;
@@ -88,7 +126,7 @@ body {
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: repeat(5, 60px);
     gap: 10px;
-    margin: 10px;
+    margin: 20px;
     border: 2px solid black;
     padding: 10px;
     background-color: white;
@@ -100,7 +138,7 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(5, 60px);
     gap: 10px;
-    margin: 10px;
+    margin: 20px;
     border: 2px solid black;
     padding: 10px;
     background-color: white;
@@ -124,23 +162,11 @@ body {
     background-color: #ccc;
 }
 
-}
 .section-image {
     display: block;
     margin: 0 auto 10px auto; 
-    max-width: 2000%; 
+    max-width: 100%; 
     height: auto;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-image2 {
-    display: block;
-    margin: 0 auto 10px auto; 
-    max-width: 200%; 
-    height: auto;
-    align-items: center;
-    justify-content: center;
 }
 
 .estado-ocupado {
@@ -162,4 +188,10 @@ body {
 }
 .hidden {
     display: none;
+}
+.section-image{
+display: block;
+margin: 0 auto 10px auto;
+max-width: 10%;
+height: auto;
 }
